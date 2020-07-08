@@ -19,3 +19,12 @@ sudo apt-get remove python-configparser
 
 5. Install Docker Compose
 sudo pip3 -v install docker-compose
+
+
+
+Linux下更换镜像源
+修改 ~/.pip/pip.conf 文件, 没有则创建
+[global]
+timeout = 6000
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn
