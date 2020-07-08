@@ -25,3 +25,7 @@ default_authentication_plugin=mysql_native_password
 
 然后重启MySQL
 service mysqld restart
+
+
+/opt/zookeeper   
+192.168.1.8  
