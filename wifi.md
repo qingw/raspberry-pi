@@ -1,3 +1,6 @@
+
+
+'''
 wifis:
   wlan0:
     dhcp4: true
@@ -6,7 +9,7 @@ wifis:
       ChinaNet-QmqN:
         password: "sava"
 #      myworkwifi:
-
+'''
 
 sudo nano /etc/netplan/50-cloud-init.yaml
 
